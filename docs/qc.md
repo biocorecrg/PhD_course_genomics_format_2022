@@ -26,7 +26,7 @@ cd .. # make sure to move up in the root of the project folder
 mkdir fastqc
 cd fastqc
 
-wget https://biocorecrg.github.io/PhD_course_genomics_format_2021/data/H3K4me1_chr21_fastqc.html
+wget https://biocorecrg.github.io/PhD_course_genomics_format_2022/data/H3K4me1_chr21_fastqc.html
 
 firefox H3K4me1_chr21_fastqc.html
 ```
@@ -34,7 +34,7 @@ firefox H3K4me1_chr21_fastqc.html
 **NOTE**. If you don't have X11 forwarding, don't worry. Just copy paste this link in your browser:
 
 ```{bash}
- https://biocorecrg.github.io/PhD_course_genomics_format_2021/data/H3K4me1_chr21_fastqc.html
+ https://biocorecrg.github.io/PhD_course_genomics_format_2022/data/H3K4me1_chr21_fastqc.html
 ```
 
 <img src="images/fastqc.png" width="800"/>

@@ -39,7 +39,7 @@ cd .. # go up one level to the root of the project, if needed
 mkdir alignment
 cd alignment
 
-wget https://biocorecrg.github.io/PhD_course_genomics_format_2021/data/H3K4me1.sam.gz
+wget https://biocorecrg.github.io/PhD_course_genomics_format_2022/data/H3K4me1.sam.gz
 gunzip H3K4me1.sam.gz
 
 more H3K4me1.sam 
@@ -93,7 +93,7 @@ To convert SAM to BAM, sort, index, etc. you can use the program: [**samtools**]
 
 
 ```{bash}
-wget https://biocorecrg.github.io/PhD_course_genomics_format_2021/data/H3K4me1.bam
+wget https://biocorecrg.github.io/PhD_course_genomics_format_2022/data/H3K4me1.bam
 
 ```
 

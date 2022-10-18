@@ -47,7 +47,7 @@ You can also display aligned sequences, but you need to place your sorted and in
 Copy paste this link into the **custom track**. This is the sorted version of our alignment, hosted in the github web-server.
 
 ```{bash}
-https://biocorecrg.github.io/PhD_course_genomics_format_2021/data/H3K4me1_s.bam
+https://biocorecrg.github.io/PhD_course_genomics_format_2022/data/H3K4me1_s.bam
 ```
 
 In the same place we also hosted the index, called **H3K4me1_s.bam.bai**. When you don't specify it, the browser will automatically look for the index just adding **.bai** ad the end of the link we provide.

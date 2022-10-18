@@ -37,7 +37,7 @@ cd ..
 mkdir peaks
 cd peaks
 
-wget https://biocorecrg.github.io/PhD_course_genomics_format_2021/data/H3K4me_peaks.xls
+wget https://biocorecrg.github.io/PhD_course_genomics_format_2022/data/H3K4me_peaks.xls
 
 
 more H3K4me_peaks.xls
@@ -81,7 +81,7 @@ chr	start	end	length	abs_summit	pileup	-log10(pvalue)	fold_enrichment	-log10(qva
 Another output file is **H3K4me_peaks.narrowPeak**, which, as you can see contains the information only about peaks. This is a BED file.
 
 ```{bash}
-wget https://biocorecrg.github.io/PhD_course_genomics_format_2021/data/H3K4me_peaks.narrowPeak
+wget https://biocorecrg.github.io/PhD_course_genomics_format_2022/data/H3K4me_peaks.narrowPeak
 
 more H3K4me_peaks.narrowPeak
 21	6565480	6565885	H3K4me_peak_1	32	.	3.66432	7.98323	3.26622	153
