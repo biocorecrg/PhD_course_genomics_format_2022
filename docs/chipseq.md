@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ChIP sequencing
-navigation: 3
+navigation: 3.5
 ---
 
 # ChIP-SEQ experiment
