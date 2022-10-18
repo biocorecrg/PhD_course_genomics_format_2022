@@ -70,11 +70,13 @@ To quit command **more**, use the key **Q** on the keyboard.<br/><br/>
 <br>
 We forgot to write down the goal of the project.
 We can append a new line to an existing file using **cat** and redirection **>>**:
+
 ```{bash}
 cat >> README.txt
 Project goal: To learn genomics data formats and never forget to write README!
 ```
-Use the keys Enter and then Ctr-D to get out of cat.
+
+Use the keys Enter and then **Ctrl D** to get out of cat.
 
 
 Explore your new file using **more**.
@@ -86,8 +88,8 @@ To edit the file we can use **nano editor** (this is the simplest editor availab
 nano README.txt
 ```
 
-Use keys Ctr-O-Enter to write this file, and Ctr-X to exit the editor.
-Now you can see this file in your folder, typing ls.
+Use keys **CtrlI** and **O** plus **Enter** to write this file, and **Ctrl X** to exit the editor.
+Now you can see this file in your folder, typing **ls**.
 And read the file using command **more**.
 
 
@@ -109,7 +111,7 @@ Saving to: ‘H3K4me1_chr21.fq.gz’
 2019-10-15 14:43:01 (37.7 MB/s) - ‘H3K4me1_chr21.fq.gz’ saved [17587112/17587112]`
 
 ```
-<br/>
+<br>
 
 
 Now, let's check the **size of the donwloaded file** (the file has an extension **gz** because it was archived using command **gzip**) using command **ls** with options **-l** (use a long listing format) and **-h** (with -l, print sizes in human readable format (e.g., 1K, 234M, 2G)):
@@ -122,7 +124,7 @@ ls -lh H3K4me1_chr21.fq.gz
 <br/>
 
 **EXERCISE**<br/>
-* Download the **control file for this ChIP-seq experiment** at https://biocorecrg.github.io/PhD_course_genomics_format_2022/data/input_chr21.fq.gz <br/>
+* Download the **control file for this ChIP-seq experiment** at https://biocorecrg.github.io/PhD_course_genomics_format_2022/data/input_chr21.fq.gz <br>
 * What is the size of the input file?
 * Look up for the options of the command **ls** using the command **man ls**. 
 * Which option in command **ls** allows to display files sorted by size? Run this command.
@@ -136,10 +138,10 @@ ls -lh H3K4me1_chr21.fq.gz
 <br/>
 
 
-Let's explore the fastq file using the **pipe** and the Linux commands **zcat**, **head**, **tail** and **more**.<br/>
+Let's explore the fastq file using the **pipe** and the Linux commands **zcat**, **head**, **tail** and **more**.<br>
 
 **A pipe (vertical bar, or key '|')** is a form of redirection (transfer of standard output to some other destination) that is used in Linux and other Unix-like operating systems to send the output of one command/program/process to another command/program/process for further processing.
-<br/>
+<br>
 
 Command **head** by default outputs the first 10 lines of the file; to output a specified number of lines, we can use the option **-n**:
 
@@ -164,13 +166,13 @@ or an alternative
 gzip -c H3K4me1_chr21.fq.gz | head
 ```
 
-<br/>
+<br>
 
-**EXERCISE**<br/>
+**EXERCISE**<br>
 * Explore the command **tail** using **man**.
 * What are the first 5 character on the 7th line from the end of file H3K4me1_chr21.fq.gz?
 
-<br/>
+<br>
 
 While viewing the text file using **more**, use these controls:
 * **Enter key**: to scroll down line by line.
@@ -185,7 +187,7 @@ zcat H3K4me1_chr21.fq.gz | more
 
 
 
-<br/>
+<br>
 
 Let's check how many lines are in this file, using command **wc**:
 
@@ -194,11 +196,12 @@ zcat H3K4me1_chr21.fq.gz | wc -l
 
 2089260
 ```
-<br/>
+<br>
 
-Since the fastq files contains 4 lines per sequence (read), we can calculate the number of reads by **dividing the total number of lines in the file by 4**. <br/> <br>
+Since the fastq files contains 4 lines per sequence (read), we can calculate the number of reads by **dividing the total number of lines in the file by 4**. <br> <br>
 
 This can be done, using the **Linux shell variables (they are created using '=' and accessed using '$')** and **bash arithmetic commands** (see [https://www.shell-tips.com/bash/math-arithmetic-calculation/](https://www.shell-tips.com/bash/math-arithmetic-calculation/)):
+
 
 ```{bash}
 echo $((10*10-5))
@@ -217,7 +220,7 @@ $((num/4)); echo $num
 
 522315
 ```
-<br/>
+<br>
 
 Another way to do arithmetic and manipulation with files in Linux is using the scripting language **AWK** (to learn AWK, refer to this tutorial [https://www.tutorialspoint.com/awk/index.htm](https://www.tutorialspoint.com/awk/index.htm)):
 
@@ -230,7 +233,7 @@ zcat H3K4me1_chr21.fq.gz | awk '{num++} END{print num/4}'
 
 522315
 ```
-<br/>
+<br>
 
 Also, because the header of each read contains the name of the sequencing machine, which is **@D00733** in this file, we can count the number of reads by counting header lines. <br>
 To do so, we first extract header lines containing the name of the machine using command **grep** (caret sign '^' specifies the begining of the line):
@@ -261,7 +264,7 @@ Start typing 8 rows of numbers:
 40
 ```
 When finished typing, close the file, using **Ctrl + D** key combination.
-<br/>
+<br>
 <br>
 Now you can examine the test file and look at what **paste** and **cut** do:
 
@@ -275,6 +278,7 @@ cat test | paste - - - | cut -f3
 ```
 
 Now, let's use these commands to extract sequences from fastq file and redirect the output (using **>**) to a newly created file "seq.txt":
+
 ```{bash}
 zcat H3K4me1_chr21.fq.gz | paste - - - - | cut -f2 > seq.txt
 
@@ -284,12 +288,12 @@ more seq.txt
 Here, command **paste**, used this way, **combines N consecutive lines into one line separated by TAB (\t)**. Thus, we obtain **one line per read**.<br/>
 
 We can then more easily manipulate the **sequences** themselves.
-<br/><br/>
+<br><br>
 
-**EXERCISE**<br/>
+**EXERCISE**<br>
  * How many lines and reads are in the file with the input data?
- * Do it using paste and cut and then grep and wc.
+ * Do it using **paste** and **cut** and then **grep** and **wc**.
 
-<br/><br/>
+<br><br>
 
 
