@@ -1,2 +1,6 @@
-# PhD_course_genomics_format_2022
-PhD course about genomics format (2022)
+# PhD_course
+CRG PhD course material from the bioinformatics unit. 2020-2021
+
+https://biocorecrg.github.io/PhD_course_genomics_format_2021
+
+
