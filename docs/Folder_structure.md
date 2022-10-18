@@ -20,7 +20,7 @@ cat >> README.txt
 2. I will always write README.
 3. I will name my folders and files using the date as a prefix, using the format YYYY-MM-DD. 
 ```
-Use the keys Enter and then Ctr-D to get out of cat.
+Use the keys Enter and then **Ctrl D** to get out of cat.
 Explore your new file using **more**.
 
 <br>
