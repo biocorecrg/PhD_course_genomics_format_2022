@@ -12,9 +12,9 @@ navigation: 1
 ## Instructors
 
 
-|[Luca Cozzuto](mailto:luca.cozzuto@crg.eu)| [Julia Ponomarenko](mailto:julia.ponomarenko@crg.eu)  |
-| :---:  | :---:  | 
-|<a href="https://biocore.crg.eu/wiki/User:Lcozzuto"><img src="pics/lcozzuto.jpg" width="200"/> </a> |<a href="https://biocore.crg.eu/wiki/User:Jponomarenko"><img src="pics/ponomarenko.jpg" width="200"/> </a> |
+|[Luca Cozzuto](mailto:luca.cozzuto@crg.eu)| [Toni Hermoso](mailto:toni.hermoso@crg.eu)  | [Julia Ponomarenko](mailto:julia.ponomarenko@crg.eu)  |
+| :---:  | :---:  |  :---:  | 
+|<a href="https://biocore.crg.eu/wiki/User:Lcozzuto"><img src="pics/lcozzuto.jpg" width="200"/> </a> |<a href="https://biocore.crg.eu/wiki/User:Thermoso"><img src="pics/thermoso.jpg" width="200"/> </a> | <a href="https://biocore.crg.eu/wiki/User:Jponomarenko"><img src="pics/ponomarenko.jpg" width="200"/> </a> |
 
 
 from the CRG [Bioinformatics core facility](https://biocore.crg.eu/) (office 425, 4th floor of the hospital side)
