@@ -42,10 +42,10 @@ It is recommended to always use the date at the beginning of the folder name, in
 <br>
 
 ```{bash}
-mkdir 2021-10-18-genomics_data_formats
+mkdir 2022-10-25-genomics_data_formats
 
 # type cd 2[TAB] to autofill the folder name
-cd 2021-10-18-genomics_data_formats
+cd 2022-10-25-genomics_data_formats
 ```
 
 <br/>
@@ -56,7 +56,7 @@ Let's use command **cat** to create a simple README.txt
 
 ```{bash}
 cat > README.txt
-Date: 10/10/2021
+Date: 25/10/2022
 Author: ....
 Project title: This is my first project.
 ```
