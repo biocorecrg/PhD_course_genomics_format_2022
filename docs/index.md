@@ -19,7 +19,7 @@ navigation: 1
 
 from the CRG [Bioinformatics core facility](https://biocore.crg.eu/) (office 425, 4th floor of the hospital side)
 
-Materials for the course are available at [this website](https://biocorecrg.github.io/PhD_course/).
+Materials for the course are available at [this website](https://biocorecrg.github.io/PhD_course_genomics_format_2022/).
 
 
 ##  Learning objectives
