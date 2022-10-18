@@ -101,13 +101,13 @@ wget https://biocorecrg.github.io/PhD_course_genomics_format_2022/data/H3K4me1.b
 
 
 
-**EXERCISE (in breakout rooms)**
+**EXERCISE**
 <br>
 * In the file H3K4me1.sam, count the number of aligned reads containing **exactly 40 A's** . 
  
  <br>
  
- TIPs: 
+ **TIPs:** 
   1. Using **cat > test2** create a small file containing a few lines with 2, 3, 4, and 5 A's. Try your commands on this small file first to understands what is going on.
   2. Look up **man grep** for options to use grep with extended regular expressions.
   3. Look up **man grep** for basic regular expressions or this resource [https://www.codingame.com/playgrounds/218/regular-expressions-basics/repetitions](https://www.codingame.com/playgrounds/218/regular-expressions-basics/repetitions) 
