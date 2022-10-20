@@ -37,6 +37,11 @@ The FASTQ format contains four rows per sequencing read:
 
 <br/>
 
+## A bit of history and evolution of a format
+The format originally was NOT required to be in **four rows** per sequence. The sequences and the qualities could be wrapped and be on multirows, and this will explain the repeated header.
+But since this format has been a standard for very short reads several tools assumed they were just 4 rows per sequence. 
+
+
 Let's start with creating the folder for our project, using the command **mkdir**.
 It is recommended to always use the date at the beginning of the folder name, in the format YYYY-MM-DD:
 <br>
