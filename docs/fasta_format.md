@@ -13,7 +13,7 @@ Once sequencing reads quality is ensured, we can proceed with their mapping (aka
 |<img src="images/alignment.png" width="500" align="middle" />|
 
 
-<br/>
+<br>
 
 Before doing the mapping, we need to retrieve information about a reference genome from a **public database**. <br>
 The program which maps reads to a genome or transcriptome (called an **aligner**) needs a **FASTA file** of the reference genome (a file with an extension **.fa**).
