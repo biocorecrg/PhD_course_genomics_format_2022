@@ -93,7 +93,7 @@ To edit the file we can use **nano editor** (this is the simplest editor availab
 nano README.txt
 ```
 
-Use keys **CtrlI** and **O** plus **Enter** to write this file, and **Ctrl X** to exit the editor.
+Use keys **Ctrl** and **O** plus **Enter** to write this file, and **Ctrl X** to exit the editor.
 Now you can see this file in your folder, typing **ls**.
 And read the file using command **more**.
 
