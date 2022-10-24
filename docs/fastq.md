@@ -53,7 +53,7 @@ mkdir 2022-10-25-genomics_data_formats
 cd 2022-10-25-genomics_data_formats
 ```
 
-<br/>
+<br>
 
 It is also a good practice to write README.txt in the root of your project folder.
 
