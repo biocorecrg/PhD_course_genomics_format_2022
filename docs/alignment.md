@@ -113,3 +113,12 @@ wget https://biocorecrg.github.io/PhD_course_genomics_format_2022/data/H3K4me1.b
   3. Look up **man grep** for basic regular expressions or this resource [https://www.codingame.com/playgrounds/218/regular-expressions-basics/repetitions](https://www.codingame.com/playgrounds/218/regular-expressions-basics/repetitions) 
 
 <br>
+
+<details>
+  <summary>Solution</summary>
+  
+  ```
+  grep -E A{40} H3K4me1.sam
+  ```
+</details>
+
