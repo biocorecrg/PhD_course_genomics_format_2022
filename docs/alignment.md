@@ -121,6 +121,10 @@ wget https://biocorecrg.github.io/PhD_course_genomics_format_2022/data/H3K4me1.b
 ```{bash}
 grep -E A{40} H3K4me1.sam
 ```
-
+ <br>
+ <br>
+ <br>
+ 
 </details>
+
 
