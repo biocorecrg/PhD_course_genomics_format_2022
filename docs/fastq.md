@@ -292,6 +292,18 @@ more seq.txt
 ```
 Here, command **paste**, used this way, **combines N consecutive lines into one line separated by TAB (\t)**. Thus, we obtain **one line per read**.<br/>
 
+**WARNING** For MAC OSX users the command line for zcat is a bit different. You need to redirect the STDIN to the command zcat:
+
+```
+zcat < H3K4me1_chr21.fq.gz | ...
+```
+
+In the same way we can replace the command zcat with **gunzip** plus the option **-c** for redirecting the extraction to STDOUT.
+
+```
+gunzip -cd H3K4me1_chr21.fq.gz | ...
+```
+
 We can then more easily manipulate the **sequences** themselves.
 <br><br>
 
