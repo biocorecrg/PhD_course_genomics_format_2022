@@ -11,7 +11,7 @@ This is a typical question each time I give this course... so there are mainly t
 Different data formats
 ====================
 
-<a><img src="images/not_the_same.jpg" width="800"/>
+<a><img src="images/not_the_same.jpg" width="300"/>
 
 
 "My format is better than your" syndrome
