@@ -168,7 +168,7 @@ zcat < H3K4me1_chr21.fq.gz | head
 or an alternative
 
 ```{bash}
-gzip -c H3K4me1_chr21.fq.gz | head
+gzip -cd H3K4me1_chr21.fq.gz | head
 ```
 
 <br>
@@ -301,7 +301,7 @@ zcat < H3K4me1_chr21.fq.gz | ...
 In the same way we can replace the command zcat with **gunzip** plus the option **-c** for redirecting the extraction to STDOUT.
 
 ```
-gunzip -cd H3K4me1_chr21.fq.gz | ...
+gunzip -c H3K4me1_chr21.fq.gz | ...
 ```
 
 We can then more easily manipulate the **sequences** themselves.
