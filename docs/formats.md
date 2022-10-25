@@ -6,6 +6,16 @@ navigation: 3
 
 Why so many formats?
 --------------------
+This is a typical question each time I give this course... so there are mainly two reasons:
+
+Different data formats
+====================
+
+<a><img src="images/not_the_same.jpg" width="800"/>
+
+
+"My format is better than your" syndrome
+====================
 
 Each time a new problem arises in biology, bionformaticians try to use an already described data format. 
 <br>
