@@ -5,3 +5,5 @@ https://biocorecrg.github.io/PhD_course_genomics_format_2022
 
 Now with meme
 
+## Using GitPod
+https://gitpod.io/#https://github.com/biocorecrg/PhD_course_genomics_format_2022
