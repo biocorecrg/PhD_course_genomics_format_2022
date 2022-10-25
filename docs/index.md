@@ -4,7 +4,7 @@ title: Home
 navigation: 1
 ---
 
-# ![logo](https://raw.githubusercontent.com/CRG-CNAG/BioCoreMiscOpen/master/logo/biocore-logo_small.png) PhD Course 2021
+# ![logo](https://raw.githubusercontent.com/CRG-CNAG/BioCoreMiscOpen/master/logo/biocore-logo_small.png) PhD Course 2022
 
 # Linux commands and Genomics data formats for biologists
 
