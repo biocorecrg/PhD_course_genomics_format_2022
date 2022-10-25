@@ -8,8 +8,9 @@ Why so many formats?
 --------------------
 This is a typical question each time I give this course... so there are mainly two reasons:
 
-Different data formats
+Different data types
 ====================
+In biology we have plenty of entities, elemements and values that need to be described. Expression values, gene structures, genomic annotations, functional elements... All of them often requires a specialized **data format**. 
 
 <a><img src="images/not_the_same.jpg" width="300"/>
 
